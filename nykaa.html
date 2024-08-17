@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #lo{
+        background-color:rgb(16, 14, 14) ;
+    width: 160px;
+    height: 60px;
+    position: fixed;
+    z-index: index 1;
+    }
+    #h{
+        background-color: rgb(245, 244, 241);
+        width: 700px;
+        height: 50px;
+        position:fixed;
+        margin-left: 170px;
+        color: black;
+    }
+    #r {
+        width: 200px;
+        height: 80px;
+        position: fixed;
+        margin-left: 890px;
+    }
+    #logo {
+        background-image: url(./1logo.png);
+        background-size: cover;
+        position: fixed;
+        margin-left: 1240px;
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+        z-index: index 1;
+    }
+    #wish {
+        background-image: url(./wish.png);
+        background-size: cover;
+        position: fixed;
+        margin-left: 1330px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #cart {
+        background-color: black;
+        background-image: url(./cart.jpg);
+        background-size: cover;
+        position: fixed;
+        margin-left: 1390px;
+        width: 50px;
+        height: 40px;
+    }
+#as {
+        background-image: url(./sale3.avif);
+        width: 1490px;
+        height: 610px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 70px;
+        margin-left: 10px;
+        border: 3px black double;
+        animation-name: lop;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-out;
+    }
+
+    @keyframes lop {
+        0% {
+            background-image: url(./sale2.avif);
+        }
+        100% {
+            background-image: url(./sale1.avif);
+        }
+    }
+        #ty {
+        background-color: rgb(23, 23, 22);
+        background-image: url(./dress1.jpeg);
+        background-size: auto;
+        width: 240px;
+        height: 260px;
+        position: absolute;
+        border-radius: 50%;
+        margin-top: 720px;
+        margin-left: 100px;
+        border: 2px black double;
+    }
+     #tr{
+        background-color: rgb(23, 23, 22);
+        background-image: url(./dress2.jpeg);
+        background-size: cover;
+        width: 240px;
+        height: 260px;
+        position: absolute;
+        border-radius: 50%;
+        margin-top: 720px;
+        margin-left: 440px;
+        border: 2px black double;
+     }   
+    #we{
+        background-color: rgb(23, 23, 22);
+        background-image: url(./kurt1);
+        background-size: cover;
+        width: 240px;
+        height: 260px;
+        position: absolute;
+        border-radius: 50%;
+        margin-top: 720px;
+        margin-left: 850px;
+        border: 2px black double;
+    }
+    #er{
+        background-color: rgb(23, 23, 22);
+        background-image: url(./kurt.jpeg);
+        background-size: cover;
+        width: 240px;
+        height: 240px;
+        position: absolute;
+        border-radius: 50%;
+        margin-top: 720px;
+        margin-left: 1190px;
+        border: 2px black double;
+        }
+    #ok {
+        background-image: url(./sale3.avif);
+        width: 1030px;
+        height: 620px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 990px;
+        margin-left: 10px;
+        border: 3px black double;
+        animation-name: love;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    }
+        @keyframes love {
+        0% {
+            background-image: url(./sale3.avif);
+        }
+        100% {
+            background-image: url(./sale4.avif);
+        }
+
+    }
+    #f{
+        background-image: url(./longbanner.jpg);
+        width: 450px;
+        height: 1120px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 990px;
+        margin-left: 1050px;
+    }
+    #a{
+        background-image: url(./sale6.jpg);
+        width:1035px ;
+        height:497px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 1620px;
+        margin-left: 10px;
+    }
+   #t{ background-color: black;
+    position: absolute;
+    width: 1490px;
+    height: 120px;
+    margin-left: 10px;
+    margin-top: 2120px;
+color: aliceblue;
+   }
+   #s{
+    background-image: url(./shoe1.jpg);
+    width:300px ;
+    height:300px;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    height: 280px;
+    margin-left: 10px;
+    margin-top: 2270px;
+   }
+   #sh{
+    background-image: url(./shoe3.jpeg);
+    width:300px ;
+    height:300px;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    height: 280px;
+    margin-left: 380px;
+    margin-top: 2270px;
+   }
+   #sho{
+    background-image: url(./kidshoe.jpeg);
+    width:300px ;
+    height:300px;
+    border-radius: 50%;
+    background-size: cover;
+    position: absolute;
+    height: 280px;
+    margin-left: 760px;
+    margin-top: 2270px;
+   }
+#sg{
+    background-image: url(./kidshoe1.jpeg);
+    width:300px ;
+    height:300px;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    height: 280px;
+    margin-left: 1140px;
+    margin-top: 2270px;
+}
+#ti{ background-color: white;
+    position: absolute;
+    width: 1490px;
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 2580px;
+color: rgb(9, 9, 9);
+}
+#oky {
+        background-image: url(./banner2.jpeg);
+        width: 1510px;
+        height: 620px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 2710px;
+        margin-left: 10px;
+        border: 3px black double;
+        animation-name: mie;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+    }
+        @keyframes mie {
+        0% {
+            background-image: url(./banner3.jpg);
+        }
+        100% {
+            background-image: url(./banner2.jpeg);
+        }
+    }
+    #ij{
+        background-color: rgb(173, 104, 116);
+        width: 1000px;
+        height: 580px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 3400px;
+        margin-left:10px;
+    }
+    #hn{
+        background-color: gray;
+        color: black;
+        width: 500px;
+        height: 580px;
+        position: absolute;
+        background-size: cover;
+        margin-top: 3400px;
+        margin-left:1000px;
+    }
+    #footer{
+        width: 1500px;
+        height: 40px;
+        margin-top:645px;
+        position: fixed;
+        background-color: black;
+        color: azure;
+    }
+</style>
+<body>
+    <div id="lo"><img style="width: 160px;height: 60px;" src="nykaa.gif"></div>
+    <div id="h"><pre style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">    Women           Men           Kids           Home         Tech         All Brands       More</pre></div>
+    <div id="r"><label for="c"></label><input style="width: 400px; height: 40px;" type="text" id="c" name="c"
+        placeholder="Search products & more"></div>
+        <div id="logo"></div>
+        <div id="wish">
+            <h3></h3>
+        </div>
+        <div id="cart">
+            <h4></h4>
+        </div>
+        <div id="e"></div>
+        <div id="co"></div>
+        <div id="as"></div>
+        <div id="last"></div>
+        <div id="ty"></div>
+        <div id="tr"></div>
+        <div id="we"></div>
+        <div id="er"></div>
+        <div id="ok"></div>
+        <div id="f"></div>
+        <div id="a"></div>
+        <div id="t"><pre style="font-size: large;font-family: Georgia, 'Times New Roman', Times, serif;">IN THE SPOTLIGHT</pre><pre style="font-size: xx-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">WOW Deal on Top Brands</pre></div>
+        <div id="s"></div>
+        <div id="sh"></div>
+        <div id="sho"></div>
+        <div id="sg"></div>
+        <div id="ti"><pre style="color: gray;font-size: x-large;font-family: Georgia, 'Times New Roman', Times, serif;">FESTIVE SPECIAL STORES</pre><pre style="color:black;font-size:xx-large;font-family:Cambria, Cochin, Georgia, Times;">Find your festive with Nykaa Fashion</pre></div>
+        <div id="oky"></div>
+        <div id="ij"><pre style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">WHO ARE WE
+            Nykaa Fashion – Online Shopping Website
+            NYKAA FASHION LUXE
+            If you desire a bit of luxury in life and wish to take your style game up a notch, we bring youNykaa Fashion Luxe– a
+             segment that offers head-turning styles and statement accessories to all luxury connoisseurs including 
+             Men, Women, and Kids. Think of popular designer 
+             brands and local hidden gems with dedicated offerings ranging from luxe watches, apparel, bags, footwear and more.
+            
+            Luxe for Men
+            Find everything from men's apparel and Watches to bags and personal accessories – all made 
+            with supreme quality fabrics and materials for a strong style statement.
+            
+            Brands to keep an eye on:Urvashi Kaur, Wendell Rodricks,Echke, Carte Blanche, andZeppelinamong others.
+            
+            Luxe for Women
+            At Nykaa Fashion Luxe, you will find a galore of options across apparel, jewellery, accessories, bags, 
+            footwear, and lingerie. Browse through the magnificent styles and be ready to look and feel like a star.
+            
+            Brands to keep an eye on:Label Ritu Kumar,First Resort By Ramola Bachchan, Masaba,Khara Kapas, and more.
+            
+            Luxe for Kids
+            Nykaa Fashion Luxe also offers a range of premium quality styles for your little ones – both boys and girls. Explore 
+            kids' Indian and western wear styles, sleepwear, and infant accessories.
+            
+            Brands to keep an eye on:Stokke,Little Luxury, Pastito A Pastito,Ps Kids By Payal Singhaland more.
+            
+            </div>
+            <div id="hn"><pre style="font-size: xx-large;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            
+               About Us
+                Careers
+                Press
+                HELP
+
+                            
+
+  Shipping & Return Policy
+         Help Center
+   Terms & Conditions
+      Privacy Policy
+   Responsible Disclosure
+                </pre></div>
+                <div id="footer" style="text-align: center;">@details2023</div>
+    </body>
+</html>
